@@ -21,7 +21,7 @@ public class Task3PhoneBook {
             int key = entry.getKey();
             String value = entry.getValue();
             if (value == surname){
-                System.err.println(value + " " + " номер телефона " + key);
+                System.out.println(value + " " + " номер телефона " + key);
             }
         }
     } 
